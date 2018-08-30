@@ -32,13 +32,11 @@ module.export = class Cipher {
 			}
 			encodechars.push(self.letters[newIndex]);
 		});
-		console.log(`encoded chars ${encodechars.join('')}`);
 		return encodechars.join('');
 	}
 
 	decode(cipher) {
 		let characters = cipher.split('');
-		console.log(`decode cipher ${cipher}`);
 		let decodedChars = [];
 		var self = this;
 		characters.forEach(function (character, index) {
@@ -48,7 +46,6 @@ module.export = class Cipher {
 			}
 			decodedChars.push(self.letters[newIndex]);
 		});
-		console.log(`decode output ${decodedChars.join('')}`);
 		return decodedChars.join('');
 	}
 }
