@@ -9,7 +9,7 @@
     "url": "https://github.com/exercism/javascript"
   },
   "devDependencies": {
-    "babel-jest": "^21.2.0",
+    "babel-jest": "^27.0.5",
     "babel-plugin-transform-builtin-extend": "^1.1.2",
     "babel-preset-env": "^1.4.0",
     "eslint": "^5.16.0",
